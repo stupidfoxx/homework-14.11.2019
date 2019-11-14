@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Product Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Bold"), url("./../fonts/ProductSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Product Sans Regular"), url("./../fonts/ProductSans-Regular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #adadad;
+  font-family: 'Product Sans Regular';
+  font-size: 22px;
+  line-height: 48px;
+  font-weight: 200;
+}
+
+.text {
+  margin: 100px auto;
+  width: 600px;
+  height: 400px;
+  padding: 15px;
+  background: #949494;
+  font-family: 'Product Sans Bold';
+  text-align: center;
+  -webkit-box-shadow: inset 1px 0px 6px 2px #474747;
+          box-shadow: inset 1px 0px 6px 2px #474747;
+  color: #e2e2e2;
+  font-weight: 800;
+}
+/*# sourceMappingURL=main.css.map */
